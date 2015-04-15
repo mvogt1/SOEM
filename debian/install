@@ -1,0 +1,10 @@
+lib/linux/libosal.a /usr/lib
+osal/osal.h /usr/include/soem
+osal/linux/osal_defs.h /usr/include/soem
+
+lib/linux/liboshw.a /usr/lib
+oshw/linux/oshw.h /usr/include/soem
+
+lib/linux/libsoem.a /usr/lib
+soem/*.h /usr/include/soem
+
