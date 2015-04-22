@@ -1,14 +1,15 @@
 Source: soem
-Section: source
 Priority: optional
 Maintainer: Martin Vogt <mvogt1@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
+Section: libs
 Homepage: http://openethercatsociety.github.io/
 Vcs-Git: https://github.com/OpenEtherCATsociety
 
 Package: soem
-Architecture: all
+Section: libdevel
+Architecture: linux-any
 Depends: ${misc:Depends}
 Description: Open EtherCAT 
  EtherCAT is the open real-time Ethernet network originally developed by Beckhoff.
